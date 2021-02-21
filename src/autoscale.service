@@ -1,0 +1,9 @@
+[Unit]
+Description=Autoscale x11
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh /usr/local/sbin/autoscale.sh
+
+[Install]
+WantedBy=multi-user.target
