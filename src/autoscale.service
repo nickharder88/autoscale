@@ -6,4 +6,4 @@ Type=oneshot
 ExecStart=/bin/sh /usr/local/sbin/autoscale.sh
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=default.target
